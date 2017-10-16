@@ -47,6 +47,7 @@ class MainActivity : AppCompatActivity(), FingerprintHandlerCallback {
             }
         }
 
+
         val fManager = FingerprintManagerHelper(this, "MYKEY", this)
         fManager.initFingerprint()
     }
